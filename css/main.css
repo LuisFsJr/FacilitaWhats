@@ -1,0 +1,67 @@
+body,
+html {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #202020;
+    font-family: 'Roboto', sans-serif;
+}
+
+.app {
+    width: 100%;
+    max-width: 700px;
+    padding: 10px 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.app a:hover {
+    border-bottom: 4px solid rgb(122, 212, 69);
+
+}
+
+.app a {
+    width: 160px;
+    height: 30px;
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 40px;
+    text-align: left;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 5px;
+    border-bottom: 4px solid #F22C2C;
+    transition: .5s;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+.app a span.numero {
+    font-size: 22px;
+}
+
+.app a span.nome {
+    font-size: 12px;
+}
+
+.app a span.bairro {
+    font-size: 12px;
+}
+
+.footer {
+    width: 300px;
+    padding: 6px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    background-color: #fff;
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+    font-size: 22px;
+}
